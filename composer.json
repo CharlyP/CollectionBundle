@@ -1,0 +1,25 @@
+{
+    "name": "charlyp/collection-bundle",
+    "type": "symfony-bundle",
+    "description": "CharlyP Collection Management Symfony Bundle",
+    "keywords": ["collection", "form", "symfony", "jquery", "bundle"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name":  "Charles Pourcel",
+            "email": "ch.pourcel@gmail.com"
+        }
+    ],
+    "require": {
+        "php":                 ">=5.3.3",
+        "symfony/form":        "~2.3",
+        "doctrine/common":     "~2.2",
+        "doctrine/orm":        "~2.2,>=2.2.3",
+        "components/jquery":   "1.8.3"
+    },
+    "autoload": {
+        "psr-0": { "Charlyp\\CollectionBundle\\": "" }
+    },
+    "target-dir": "Charlyp//CollectionBundle",
+    "minimum-stability": "dev"
+}
